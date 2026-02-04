@@ -11,5 +11,5 @@ class User:
         return cls.user_count
 u1 = User("a@test.com")
 u2 = User("b@test.com")
-print(User.is_valid_email("x@y.com")) 
-print(User.total_users())              
+print(User.is_valid_email("x@y.com"))
+print(User.total_users())
